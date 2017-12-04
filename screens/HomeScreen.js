@@ -10,7 +10,7 @@ export default class HomeScreen extends React.Component{
 
         return(
             <View style={styles.container}>
-                <Text>Home Screen</Text>
+                <Text>Todo App Prototype</Text>
                 <Button title='Check out current tasks'
                         onPress={() => navigate('TasksList')}/>
                 <Button title='Add tasks'
