@@ -2,7 +2,6 @@
 import React from 'react';
 import { Text, View, Button } from 'react-native';
 import styles from './styles/appStyles';
-// import TasksList from './components/tasksList';
 import {StackNavigator} from 'react-navigation';
 
 import HomeScreen from './screens/HomeScreen';
